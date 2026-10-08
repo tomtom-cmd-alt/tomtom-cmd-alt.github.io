@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Tom Tom builds thoughtful digital experiences and products with a focus on clean design and practical engineering."
+    />
+    <title>Tom Tom | Developer & Creator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a href="#top" class="brand" aria-label="Tom Tom home">Tom Tom</a>
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Full-stack developer • builder • learner</p>
+            <h1>Designing useful things with code.</h1>
+            <p class="lead">
+              I create polished digital experiences that combine strong product thinking,
+              clean engineering, and a passion for shipping useful work.
+            </p>
+            <div class="actions">
+              <a class="button primary" href="#projects">View projects</a>
+              <a class="button secondary" href="#contact">Let’s connect</a>
+            </div>
+            <ul class="mini-stats" aria-label="Key statistics">
+              <li><strong>2+</strong><span>Years building</span></li>
+              <li><strong>10+</strong><span>Projects shipped</span></li>
+              <li><strong>100%</strong><span>Curious mindset</span></li>
+            </ul>
+          </div>
+
+          <div class="hero-visual" aria-hidden="true">
+            <div class="orb orb-one"></div>
+            <div class="orb orb-two"></div>
+            <div class="card glass-card">
+              <div class="card-topline">
+                <span class="dot green"></span>
+                <span class="dot amber"></span>
+                <span class="dot red"></span>
+              </div>
+              <div class="code-window">
+                <pre><code>const build = () =&gt; {
+  return "impactful products";
+};</code></pre>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container narrow">
+          <p class="section-kicker">About</p>
+          <h2>Building practical experiences that feel effortless.</h2>
+          <p>
+            I’m a developer focused on turning ideas into clean, reliable, and memorable
+            experiences. My work blends UI craftsmanship, backend thinking, and product
+            intuition to help teams create tools people genuinely enjoy using.
+          </p>
+          <p>
+            Whether I’m designing an interface, optimizing a workflow, or building a feature
+            from the ground up, I care about clarity, performance, and thoughtful execution.
+          </p>
+        </div>
+      </section>
+
+      <section id="projects" class="section alt">
+        <div class="container">
+          <div class="section-heading">
+            <p class="section-kicker">Projects</p>
+            <h2>Selected work</h2>
+          </div>
+
+          <div class="project-grid">
+            <article class="project-card">
+              <div class="project-badge">Web App</div>
+              <h3>Portfolio Platform</h3>
+              <p>
+                A modern front-end experience designed to showcase work, tell a story, and
+                make contact effortless.
+              </p>
+              <ul>
+                <li>Responsive UI</li>
+                <li>Fast performance</li>
+                <li>Strong visual identity</li>
+              </ul>
+            </article>
+
+            <article class="project-card">
+              <div class="project-badge">Product</div>
+              <h3>Workflow Dashboard</h3>
+              <p>
+                A clean, data-driven dashboard built to turn operational complexity into a clear,
+                usable system.
+              </p>
+              <ul>
+                <li>Data visualizations</li>
+                <li>UX simplification</li>
+                <li>Scalable architecture</li>
+              </ul>
+            </article>
+
+            <article class="project-card">
+              <div class="project-badge">Tooling</div>
+              <h3>Automation Scripts</h3>
+              <p>
+                Workflow automation for repetitive tasks, improving efficiency and reducing friction
+                across day-to-day work.
+              </p>
+              <ul>
+                <li>Time-saving logic</li>
+                <li>Reliable execution</li>
+                <li>Developer workflows</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="section-kicker">Skills</p>
+            <h2>Tools I use</h2>
+          </div>
+
+          <div class="skills-grid">
+            <div class="skill-card">
+              <h3>Frontend</h3>
+              <p>HTML • CSS • JavaScript • React • UI design</p>
+            </div>
+            <div class="skill-card">
+              <h3>Backend</h3>
+              <p>Node.js • APIs • Systems thinking • Scalability</p>
+            </div>
+            <div class="skill-card">
+              <h3>Workflow</h3>
+              <p>Git • GitHub • Testing • Deployment • Iteration</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact" class="site-footer">
+      <div class="container footer-wrap">
+        <div>
+          <p class="section-kicker">Contact</p>
+          <h2>Let’s build something meaningful.</h2>
+        </div>
+        <div class="socials">
+          <a href="https://github.com/tomtom-cmd-alt" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="mailto:hello@example.com">Email</a>
+          <a href="https://www.linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <p>© 2026 Tom Tom</p>
+      </div>
+    </footer>
+  </body>
+</html>
